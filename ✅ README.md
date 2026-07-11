@@ -131,38 +131,51 @@ GLPI Agent
 
 # 🔒 Sécurisation
 
-[Voir la section HARDENING](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%9B%A1%EF%B8%8F%20HARDENING.md)
+[📖 Voir la documentation complète sur le HARDENING](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%9B%A1%EF%B8%8F%20HARDENING.md)
 
 ---
 
 # 🎫 Gestion des incidents
 
-[Voir la section ITIL-PROCESS](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%94%84%20ITIL-PROCESS.md)
+Ce projet met en œuvre un processus de gestion des incidents inspiré des bonnes pratiques **ITIL**, incluant le cycle de vie des tickets, la priorisation, les SLA, les règles métier et la capitalisation des connaissances.
+
+➡️ **Documentation détaillée :**
+
+- [📖 ITIL-PROCESS.md](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%94%84%20ITIL-PROCESS.md)
 
 ---
 
 # 📸 Captures d'écran
 
-🚧 En construction 
+# 📸 Captures d'écran
+
+Les principales étapes du projet sont illustrées par des captures d'écran de l'infrastructure, de l'interface GLPI et des fonctionnalités mises en œuvre.
+
+> Cette section sera enrichie progressivement au fil de l'évolution du projet.
 
 ---
 
 # 🐞 Dépannage
 
-[Voir la section TROUBLESHOOTING](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%90%9E%20TROUBLESHOOTING.md)
+Les principaux incidents rencontrés lors du déploiement, leurs causes et les procédures de résolution sont documentés dans le guide de dépannage.
+
+➡️ **Documentation détaillée :**
+
+- [📖 TROUBLESHOOTING.md](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%90%9E%20TROUBLESHOOTING.md)
 
 ---
 
-# 📚 Documentation
+# 📚 Documentation technique
+
+La documentation détaillée est organisée par thématique afin de faciliter la navigation.
 
 | Document | Description |
-|-----------|-------------|
-| ARCHITECTURE.md | Architecture de l'infrastructure |
-| HARDENING.md | Mesures de sécurité |
-| ITIL-PROCESS.md | Gestion des incidents |
-| TROUBLESHOOTING.md | Résolution des incidents |
-| FAQ.md | Base de connaissances |
-
+|----------|-------------|
+| 🏗️ [ARCHITECTURE.md](docs/ARCHITECTURE.md) | Architecture et composants de l'infrastructure |
+| 🛡️ [HARDENING.md](docs/HARDENING.md) | Mesures de sécurisation mises en œuvre |
+| 🔄 [ITIL-PROCESS.md](docs/ITIL-PROCESS.md) | Gestion des incidents, SLA et règles métier |
+| 🐞 [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Incidents rencontrés et procédures de résolution |
+| 📚 [FAQ.md](docs/FAQ.md) | Base de connaissances et procédures récurrentes |
 ---
 
 # 🚀 Améliorations futures
