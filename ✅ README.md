@@ -56,19 +56,66 @@ Ce laboratoire avait pour objectifs de :
 
 # 🏢 Contexte
 
-🚧 En construction 
+Dans un environnement informatique, la qualité du support technique repose sur la capacité à **centraliser les demandes**, **prioriser les incidents** et **respecter des engagements de service (SLA)**. Sans outil dédié, les interventions deviennent rapidement difficiles à suivre : les demandes sont dispersées, les délais ne sont pas maîtrisés et la traçabilité des actions est limitée.
+
+Afin de répondre à cette problématique, ce laboratoire reproduit le déploiement d'une plateforme **IT Service Management (ITSM)** basée sur **GLPI**, en s'appuyant sur les bonnes pratiques du référentiel **ITIL**.
+
+Le projet a été réalisé dans un environnement virtualisé sous **Proxmox VE**, simulant une infrastructure de type PME composée d'un serveur Debian hébergeant GLPI et d'un poste client Windows supervisé par **GLPI Agent**.
+
+Au-delà de l'installation de l'application, ce laboratoire intègre une approche complète de l'administration d'infrastructures sécurisées :
+
+- 🖥️ déploiement d'une architecture **LAMP** (Linux, Apache, MariaDB, PHP) ;
+- 🔒 sécurisation du serveur (HTTPS, durcissement du système, firewall `iptables`, protection des sessions PHP) ;
+- 🎫 mise en œuvre d'un processus complet de gestion des incidents ;
+- ⏱️ définition de plusieurs niveaux de **Service Level Agreement (SLA)** avec des objectifs de prise en charge (**TTO**) et de résolution (**TTR**) ;
+- 🚦 configuration d'une logique de priorisation basée sur l'impact et l'urgence ;
+- 📚 création d'une base de connaissances destinée à capitaliser les procédures de résolution des incidents récurrents.
+
+Bien que réalisé dans le cadre de ma formation d'**Administrateur d'Infrastructures Sécurisées**, ce projet dépasse le simple exercice pédagogique. Les scénarios d'exploitation, les choix techniques et les mesures de sécurisation ont été approfondis afin de reproduire une démarche proche de celle attendue dans un contexte professionnel.
 
 ---
 
-# 🏗️ Architecture
+# 🏗️ Architecture virtualisée
+
+L'environnement est déployé sur un hyperviseur Proxmox VE hébergeant deux machines virtuelles.
 
 ![Proxmox](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/proxmox-DebianGLPI-Win10.png)
+
+```mermaid
+flowchart TB
+
+    User[👤 Administrateur]
+
+    Debian["🐧 Debian 12
+Apache
+PHP
+MariaDB
+GLPI
+10.0.0.21"]
+
+    Windows["🖥️ Windows 10
+GLPI Agent
+10.0.0.22"]
+
+    User -->|HTTPS| Debian
+    Windows -->|Inventaire| Debian
+```
+
+| **Élément**    | **Fonction**                        |
+| ---------- | --------------------------------------- |
+| Proxmox VE | Hyperviseur hébergeant l'infrastructure |
+| Debian 12  | Serveur GLPI                            |
+| Apache     | Serveur web HTTPS                       |
+| MariaDB    | Base de données GLPI                    |
+| PHP        | Exécution de l'application GLPI         |
+| GLPI Agent | Inventaire automatique des postes       |
+| Windows 10 | Poste client supervisé                  |
 
 ---
 
 # 🛠️ Technologies utilisées
 
-| Domaine | Solution |
+| **Domaine** | **Solution** |
 |----------|----------|
 | Hyperviseur | Proxmox VE |
 | Serveur | Debian 12 |
