@@ -43,7 +43,7 @@ Les mots de passe par défaut de l’ensemble des comptes intégrés à GLPI ont
 
 ![modif mdp](https://github.com/FrancoisBarsotti-Oclock/Cybersecurity/blob/main/Portfolio/Challenges/Challenges%20A2/images%20A2/images%20A209%20CP1/A209_CP1_12-Modif%20du%20mdp%20du%20super%20utilisateur.png)
 
-*Figure 1 — Comptes GLPI sécurisés après modification des mots de passe par défaut.*
+> *Figure 1 — Comptes GLPI sécurisés après modification des mots de passe par défaut.*
 
 Les nouveaux mots de passe ont été définis selon des principes de robustesse :
 
@@ -82,7 +82,7 @@ DocumentRoot /var/www/glpi/public
 ```
 ![Apache](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/Apache-On.png)
 
-*Figure 4 — Validation de la configuration Apache après les modifications de sécurité.*
+> *Figure 2 — Validation de la configuration Apache après les modifications de sécurité.*
 
 Cette configuration évite l’exposition directe des répertoires internes de l’application, notamment ceux contenant les fichiers de configuration, les bibliothèques et les données applicatives.
 
@@ -152,7 +152,7 @@ sudo systemctl reload apache2
 
 ![HTTPS](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/https.png)
 
-*https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/https.png*
+> *Figure 3 : Certificat HTTPS*
 
 > Un certificat auto-signé est adapté à un laboratoire isolé. En production, il conviendrait d’utiliser un certificat délivré par une autorité de certification interne ou publique.
 
@@ -234,7 +234,7 @@ Le serveur Debian a été protégé à l’aide de règles `iptables` afin de li
 
 ![iptables](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/iptables.png)
 
-*Figure 5 — Politique de filtrage réseau appliquée au serveur Debian.*
+> *Figure 4 — Politique de filtrage réseau appliquée au serveur Debian.*
 
 Les flux autorisés sont principalement :
 
@@ -303,7 +303,7 @@ Les contrôles ont notamment porté sur :
 
 ![Plus d'erreur](https://github.com/FrancoisBarsotti-Oclock/Cybersecurity/blob/main/Portfolio/Challenges/Challenges%20A2/images%20A2/images%20A209%20CP1/A209_CP1_17-S%C3%A9curit%C3%A9%20GLPI%20garantie.png)
 
-*Figure 3 — Vérification des recommandations de sécurité de GLPI après le durcissement.*
+> *Figure 5 — Vérification des recommandations de sécurité de GLPI après le durcissement.*
 
 L’objectif était de ne conserver aucune alerte de sécurité connue dans l’interface d’administration.
 
@@ -336,7 +336,7 @@ sudo iptables -L -n -v
 ```
 ![GLPI opérationnelle](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/glpi-dashboard.png)
 
-*Figure 6 — Validation finale du bon fonctionnement de l'infrastructure sécurisée.*
+> *Figure 6 — Validation finale du bon fonctionnement de l'infrastructure sécurisée.*
 
 ---
 

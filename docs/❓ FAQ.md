@@ -42,7 +42,7 @@ Sur le poste Windows :
 
 ![Win déctecté](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/detected-Win.png)
 
-*Figure 1 : Poste Windows détecté*
+> *Figure 1 : Poste Windows détecté*
 
 ---
 
@@ -80,7 +80,7 @@ Puis vérifier :
 
 ![Apache On](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/Apache-On.png)
 
-*Figure 2 : Apache activé*
+> *Figure 2 : Apache activé*
 
 ---
 
@@ -176,7 +176,7 @@ Contrôler notamment :
 
 ![iptables](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/iptables.png)
 
-*Figure 3 : Vérification des règles de pare-feu*
+> *Figure 3 : Vérification des règles de pare-feu*
 
 ---
 

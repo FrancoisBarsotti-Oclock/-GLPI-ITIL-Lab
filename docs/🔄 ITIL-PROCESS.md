@@ -48,7 +48,7 @@ H --> I["📚 Base de connaissances"]
 
 ![Ticket history](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/ticket-history.png)
 
-*Figure 1 : Ticket history*
+> *Figure 1 : Ticket history*
 
 Ce processus garantit la traçabilité des interventions et facilite le traitement des incidents récurrents.
 
@@ -85,7 +85,7 @@ La priorité est déterminée à partir de la combinaison de deux critères :
 
 ![Matrice de priorité](https://github.com/FrancoisBarsotti-Oclock/Cybersecurity/blob/main/Portfolio/Challenges/Challenges%20A2/images%20A2/images%20A209%20CP1/A209_CP1_25-Matrice%20calcul%20de%20priorit%C3%A9.png)
 
-*Figure 2 : Matrice de priorité*
+> *Figure 2 : Matrice de priorité*
 
 Cette logique permet de traiter en priorité les incidents ayant le plus fort impact sur la disponibilité des services.
 
@@ -109,7 +109,7 @@ Les SLA fixent :
 
 ![Qualification](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/category-priorities.png)
 
-*Figure 3 : TTO + TTR*
+> *Figure 3 : TTO + TTR*
 
 Ces délais sont calculés selon un calendrier personnalisé intégrant :
 
@@ -119,7 +119,7 @@ Ces délais sont calculés selon un calendrier personnalisé intégrant :
 
 ![Calendrier](https://github.com/FrancoisBarsotti-Oclock/Cybersecurity/blob/main/Portfolio/Challenges/Challenges%20A2/images%20A2/images%20A209%20CP1/A209_CP1_22-Jours%20de%20fermeture.png)
 
-*Figure 4 : Calendrier personnalisé*
+> *Figure 4 : Calendrier personnalisé*
 
 ---
 
@@ -136,7 +136,7 @@ Ces règles permettent notamment :
 
 ![Règles métier](https://github.com/FrancoisBarsotti-Oclock/Cybersecurity/blob/main/Portfolio/Challenges/Challenges%20A2/images%20A2/images%20A209%20CP1/A209_CP1_27-Crit%C3%A8res%20et%20Actions%20des%20r%C3%A8gles.png)
 
-*Figure 5 : Config des règles métier*
+> *Figure 5 : Config des règles métier*
 
 L'automatisation réduit les erreurs humaines et améliore la réactivité du support.
 
@@ -214,7 +214,7 @@ Le service Apache était arrêté.
 
 ![Tickets](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/ticket-list.png)
 
-*Figure 6 : Liste de tickets*
+> *Figure 6 : Liste de tickets*
 
 ---
 
@@ -234,7 +234,7 @@ Exemples :
 
 ![FAQ](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/faq.png)
 
-*Figure 7 : FAQ en tant que base de connaissances*
+> *Figure 7 : FAQ en tant que base de connaissances*
 
 Cette démarche permet de capitaliser les connaissances techniques et d'améliorer la continuité de service.
 

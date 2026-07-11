@@ -50,7 +50,8 @@ Cette architecture repose sur deux machines virtuelles principales :
 L'utilisation de la virtualisation offre une infrastructure **isolée, reproductible et facilement évolutive**, tout en permettant de réaliser des tests sans impacter un environnement de production.
 
 ![Infrastructure virtuelle](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/proxmox-DebianGLPI-Win10.png)
-*Figure 1 — Vue de l'infrastructure virtuelle sous Proxmox VE.*
+
+> *Figure 1 — Vue de l'infrastructure virtuelle sous Proxmox VE.*
 
 ## Description des composants
 
