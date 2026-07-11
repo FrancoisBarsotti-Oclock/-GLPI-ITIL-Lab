@@ -1,0 +1,1 @@
+> 🚧 Le schéma d'architecture sera ajouté prochainement.
