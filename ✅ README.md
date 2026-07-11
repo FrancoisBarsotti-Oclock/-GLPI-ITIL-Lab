@@ -56,13 +56,13 @@ Ce laboratoire avait pour objectifs de :
 
 # 🏢 Contexte
 
-*(à rédiger ensemble ensuite)*
+🚧 En construction 
 
 ---
 
 # 🏗️ Architecture
 
-*(capture Proxmox + schéma réseau)*
+![Proxmox](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/proxmox-DebianGLPI-Win10.png)
 
 ---
 
@@ -84,25 +84,25 @@ Ce laboratoire avait pour objectifs de :
 
 # 🔒 Sécurisation
 
-*(avec renvoi vers HARDENING.md)*
+[Voir la section HARDENING](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%9B%A1%EF%B8%8F%20HARDENING.md)
 
 ---
 
 # 🎫 Gestion des incidents
 
-*(avec renvoi vers ITIL-PROCESS.md)*
+[Voir la section ITIL-PROCESS](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%94%84%20ITIL-PROCESS.md)
 
 ---
 
 # 📸 Captures d'écran
 
-*(toutes les captures)*
+🚧 En construction 
 
 ---
 
 # 🐞 Dépannage
 
-*(renvoi vers TROUBLESHOOTING.md)*
+[Voir la section TROUBLESHOOTING](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%90%9E%20TROUBLESHOOTING.md)
 
 ---
 
