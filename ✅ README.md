@@ -139,17 +139,11 @@ GLPI Agent
 
 Ce projet met en œuvre un processus de gestion des incidents inspiré des bonnes pratiques **ITIL**, incluant le cycle de vie des tickets, la priorisation, les SLA, les règles métier et la capitalisation des connaissances.
 
+![ticket](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/ticket-glpi.png)
+
 ➡️ **Documentation détaillée :**
 
 - [📖 ITIL-PROCESS.md](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%94%84%20ITIL-PROCESS.md)
-
----
-
-# 📸 Captures d'écran
-
-Les principales étapes du projet sont illustrées par des captures d'écran de l'infrastructure, de l'interface GLPI et des fonctionnalités mises en œuvre.
-
-> Cette section sera enrichie progressivement au fil de l'évolution du projet.
 
 ---
 
