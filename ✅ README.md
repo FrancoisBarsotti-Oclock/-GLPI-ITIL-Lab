@@ -147,8 +147,6 @@ Ce projet met en œuvre un processus de gestion des incidents inspiré des bonne
 
 # 📸 Captures d'écran
 
-# 📸 Captures d'écran
-
 Les principales étapes du projet sont illustrées par des captures d'écran de l'infrastructure, de l'interface GLPI et des fonctionnalités mises en œuvre.
 
 > Cette section sera enrichie progressivement au fil de l'évolution du projet.
