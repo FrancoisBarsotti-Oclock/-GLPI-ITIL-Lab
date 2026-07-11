@@ -37,7 +37,7 @@ Avant le durcissement, plusieurs risques de sécurité pouvaient être présents
 
 # 🔐 Mesures de sécurité appliquées
 
-## 1. Sécurisation des comptes GLPI
+## 🛡️ 1. Sécurisation des comptes GLPI
 
 Les mots de passe par défaut de l’ensemble des comptes intégrés à GLPI ont été modifiés immédiatement après l’installation.
 
@@ -73,7 +73,7 @@ sudo rm /var/www/glpi/install/install.php
 
 ---
 
-## 3. Restriction du répertoire exposé par Apache
+## 🛡️ 3. Restriction du répertoire exposé par Apache
 
 Le `DocumentRoot` du VirtualHost Apache a été configuré afin de pointer uniquement vers le répertoire public de GLPI :
 
@@ -125,7 +125,7 @@ Syntax OK
 
 ---
 
-## 5. Chiffrement des communications HTTPS
+## 🌐 5. Chiffrement des communications HTTPS
 
 L’accès à l’interface GLPI a été configuré en HTTPS afin de protéger :
 
@@ -198,7 +198,7 @@ sudo systemctl restart apache2
 
 ---
 
-## 8. Gestion des propriétaires et des permissions
+## 📂 8. Gestion des propriétaires et des permissions
 
 Les propriétaires et groupes des fichiers GLPI ont été ajustés afin de permettre leur utilisation par Apache tout en limitant l’accès aux autres utilisateurs du système.
 
@@ -228,9 +228,13 @@ Le principe appliqué reste celui du **moindre privilège**.
 
 ---
 
-## 9. Filtrage réseau avec iptables
+## 🔥 9. Filtrage réseau avec iptables
 
 Le serveur Debian a été protégé à l’aide de règles `iptables` afin de limiter les connexions entrantes aux services nécessaires.
+
+![iptables](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/iptables.png)
+
+*Figure 5 — Politique de filtrage réseau appliquée au serveur Debian.*
 
 Les flux autorisés sont principalement :
 
@@ -284,7 +288,7 @@ sudo iptables -A INPUT \
 
 ---
 
-## 10. Vérification des alertes GLPI
+## 🔒 10. Vérification des alertes GLPI
 
 Après l’installation et la sécurisation, les avertissements affichés dans l’interface GLPI ont été analysés et corrigés.
 
@@ -330,6 +334,9 @@ sudo apache2ctl configtest
 sudo ss -lntp
 sudo iptables -L -n -v
 ```
+![GLPI opérationnelle](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/images/glpi-dashboard.png)
+
+*Figure 6 — Validation finale du bon fonctionnement de l'infrastructure sécurisée.*
 
 ---
 
