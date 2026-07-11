@@ -169,11 +169,11 @@ La documentation détaillée est organisée par thématique afin de faciliter la
 
 | Document | Description |
 |----------|-------------|
-| 🏗️ [ARCHITECTURE.md](docs/ARCHITECTURE.md) | Architecture et composants de l'infrastructure |
-| 🛡️ [HARDENING.md](docs/HARDENING.md) | Mesures de sécurisation mises en œuvre |
-| 🔄 [ITIL-PROCESS.md](docs/ITIL-PROCESS.md) | Gestion des incidents, SLA et règles métier |
-| 🐞 [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Incidents rencontrés et procédures de résolution |
-| 📚 [FAQ.md](docs/FAQ.md) | Base de connaissances et procédures récurrentes |
+| 🏗️ [ARCHITECTURE.md](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%8F%97%EF%B8%8F%20ARCHITECTURE.md) | Architecture et composants de l'infrastructure |
+| 🛡️ [HARDENING.md](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%9B%A1%EF%B8%8F%20HARDENING.md) | Mesures de sécurisation mises en œuvre |
+| 🔄 [ITIL-PROCESS.md](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%94%84%20ITIL-PROCESS.md) | Gestion des incidents, SLA et règles métier |
+| 🐞 [TROUBLESHOOTING.md](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%F0%9F%90%9E%20TROUBLESHOOTING.md) | Incidents rencontrés et procédures de résolution |
+| 📚 [FAQ.md](https://github.com/FrancoisBarsotti-Oclock/-GLPI-ITIL-Lab/blob/main/docs/%E2%9D%93%20FAQ.md) | Base de connaissances et procédures récurrentes |
 ---
 
 # 🚀 Améliorations futures
